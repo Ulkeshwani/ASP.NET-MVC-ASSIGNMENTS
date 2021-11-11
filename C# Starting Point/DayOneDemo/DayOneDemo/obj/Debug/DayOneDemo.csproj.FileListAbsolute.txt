@@ -1,0 +1,7 @@
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\bin\Debug\DayOneDemo.exe.config
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\bin\Debug\DayOneDemo.exe
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\bin\Debug\DayOneDemo.pdb
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\obj\Debug\DayOneDemo.csproj.AssemblyReference.cache
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\obj\Debug\DayOneDemo.csproj.CoreCompileInputs.cache
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\obj\Debug\DayOneDemo.exe
+P:\Internship\C# Starting Point\DayOneDemo\DayOneDemo\obj\Debug\DayOneDemo.pdb
