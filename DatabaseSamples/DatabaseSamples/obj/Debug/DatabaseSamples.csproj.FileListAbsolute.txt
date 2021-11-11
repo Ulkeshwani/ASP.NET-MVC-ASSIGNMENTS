@@ -1,0 +1,7 @@
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\bin\Debug\DatabaseSamples.exe.config
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\bin\Debug\DatabaseSamples.exe
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\bin\Debug\DatabaseSamples.pdb
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\obj\Debug\DatabaseSamples.csproj.AssemblyReference.cache
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\obj\Debug\DatabaseSamples.csproj.CoreCompileInputs.cache
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\obj\Debug\DatabaseSamples.exe
+C:\Users\91808\source\repos\DatabaseSamples\DatabaseSamples\obj\Debug\DatabaseSamples.pdb

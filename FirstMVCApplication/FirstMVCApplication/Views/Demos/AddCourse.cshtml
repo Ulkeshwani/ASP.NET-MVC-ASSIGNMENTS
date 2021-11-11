@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "AddCourse";
+}
+
+<h2>Sample ASP.NET FORM</h2>
+
+@*HTML Helpers
+Generate HTML and Return result As A String*@
+@using(Html.BeginForm())
+ {
+    <section>
+        <p><label>Enter CourseID:</label>@Html.TextBox("Course_ID")</p>
+        <br />
+        <p><label>Enter Course Name:</label>@Html.TextBox("Course_Name")</p>
+        <br />
+        <p><label>Enter Fees:</label>@Html.TextBox("Fees")</p>
+        <br />
+        <label>Select technologies:</label>@Html.DropDownList("Technologies", ViewBag.Technologies as SelectList, "Select Any")
+
+        <p>
+            @Html.RadioButton("Gender", "Male", false) Male
+            @Html.RadioButton("Gender", "Female", false) Female
+        </p>
+        <input type="submit" name="Submit" value="Submit" />
+        @Html.ActionLink("Go Back To Home", "Index", "Home")
+    </section>
+ }
+    

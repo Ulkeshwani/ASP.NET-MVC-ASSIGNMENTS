@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "DisplayCourse";
+}
+
+<h2>Your Enrolled Courses</h2>
+<h3> Thanks for Registration </h3>
+<section style="color:blue">
+    <p>
+        <label>CourseID:- @ViewBag.CourseID</label>
+        <br />
+        <label>Course Name:- @ViewBag.CourseName</label>
+        <br />
+        <label>Course Fee:- @ViewBag.Fees</label>
+        <br />
+        <label>Technology:- @ViewBag.Technologies</label>
+        <br />
+        <label>Gender:- @ViewBag.Gender</label>
+    </p>
+    @Html.ActionLink("Go Back To Home", "Index", "Home")
+</section>

@@ -1,0 +1,6 @@
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\bin\Debug\DatabaseDemo.exe.config
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\bin\Debug\DatabaseDemo.exe
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\bin\Debug\DatabaseDemo.pdb
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\obj\Debug\DatabaseDemo.csproj.CoreCompileInputs.cache
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\obj\Debug\DatabaseDemo.exe
+C:\Users\91808\source\repos\DatabaseDemo\DatabaseDemo\obj\Debug\DatabaseDemo.pdb

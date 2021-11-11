@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Sports";
+}
+
+<h2>Sports</h2>
+
+<table border="1">
+    <tr>
+        <th>Sports List</th>
+    </tr>
+        @{
+            foreach (dynamic sports in ViewBag.Sports)
+            {
+                <tr>
+                    <td>@sports</td>
+                </tr>
+            }
+        }
+</table>

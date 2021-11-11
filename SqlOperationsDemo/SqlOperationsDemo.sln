@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlOperationsDemo", "SqlOperationsDemo\SqlOperationsDemo.csproj", "{C1AB1DB3-BC3F-42C4-B317-8C4966A966FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1AB1DB3-BC3F-42C4-B317-8C4966A966FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AB1DB3-BC3F-42C4-B317-8C4966A966FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AB1DB3-BC3F-42C4-B317-8C4966A966FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AB1DB3-BC3F-42C4-B317-8C4966A966FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41805EB6-A9DF-4EEF-AAC8-47993F8943C3}
+	EndGlobalSection
+EndGlobal

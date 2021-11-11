@@ -1,0 +1,17 @@
+﻿
+
+@{
+    ViewBag.Title = "Courses";
+}
+
+@using FirstMVCApplication.Models;
+
+<h2>Courses</h2>
+<h5>@ViewBag.Message</h5>
+
+<ul>
+    @foreach (Course course in ViewBag.AllCourses)
+    {
+        <li> @course.CourseId -- @course.CourseName -- @course.Fees</li>
+    }
+</ul>

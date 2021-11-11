@@ -1,0 +1,7 @@
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\bin\Debug\OOPsSamples.exe.config
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\bin\Debug\OOPsSamples.exe
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\bin\Debug\OOPsSamples.pdb
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\obj\Debug\OOPsSamples.csproj.AssemblyReference.cache
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\obj\Debug\OOPsSamples.csproj.CoreCompileInputs.cache
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\obj\Debug\OOPsSamples.exe
+C:\Users\91808\source\repos\OOPsSamples\OOPsSamples\obj\Debug\OOPsSamples.pdb

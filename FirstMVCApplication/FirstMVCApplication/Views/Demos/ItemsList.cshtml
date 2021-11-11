@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "ItemsList";
+}
+
+<h2>ItemsList</h2>
+
+@foreach (var item in (IEnumerable<string>) ViewData["Items"])
+{
+    <li>@item</li>
+}

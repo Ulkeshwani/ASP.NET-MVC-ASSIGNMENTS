@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "MatcheSchedules";
+}
+
+<h2>MatcheSchedules</h2>
+
+<table border="1">
+    <tr>
+        <th>Match </th>
+        <th>Date</th>
+    </tr>
+    @{
+        foreach (dynamic schedule in ViewBag.MatchSchedules)
+        {
+        <tr>
+            <td>
+                @schedule.MatchTitle
+            </td>
+            <td>
+                @schedule.ScheduleDate
+            </td>
+        </tr>
+        }
+    }
+</table>

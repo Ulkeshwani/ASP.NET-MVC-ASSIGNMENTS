@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "PerosnalDetails";
+}
+
+<h2>PerosnalDetails</h2>
+@using (Html.BeginForm())
+{
+    <div style="border:solid; border-color:black; padding:20px">
+        <br />
+        <p><b>Name</b></p>
+        <p>Enter First name:@Html.TextBox("FirstName")</p>
+        <br />
+        <p>Enter Last name:@Html.TextBox("LastName")</p>
+        <br />
+    </div>
+    <br />
+    <div>
+        <div style="border:solid; border-color:black; padding:20px">
+            <br />
+            <p><b>Gender :</b> </p>
+            <p style="margin:10px"> @Html.RadioButton("Gender", "Male", true) Male</p>
+            <br />
+            <p style="margin:10px">@Html.RadioButton("Gender", "Female", false) Female </p>
+            <br />
+        </div><br /><br />
+        <div style="border:solid; border-color:black; padding:20px">
+            <br />
+            <p><b>Profession type :</b> </p>
+            <br />
+            <p style="margin:10px"> @Html.RadioButton("ProfType", "Employed", true) Employed</p>
+            <br />
+            <p style="margin:10px">@Html.RadioButton("ProfType", "self-Employed", false) self-Employed </p>
+            <br />
+            <p style="margin:10px">@Html.RadioButton("ProfType", "Business", false) Business </p>
+            <br />
+        </div><br />
+    </div>
+    <input type="submit" value="Submit" />  
+}
