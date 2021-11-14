@@ -1,11 +1,11 @@
-﻿@{
+﻿<link href="~/Styles/PresonalDetailsStyles.css" rel="stylesheet" />
+@{
     ViewBag.Title = "PerosnalDetails";
 }
-
 <h2>PerosnalDetails</h2>
 @using (Html.BeginForm())
 {
-    <div style="border:solid; border-color:black; padding:20px">
+    <div class="input-container">
         <br />
         <p><b>Name</b></p>
         <p>Enter First name:@Html.TextBox("FirstName")</p>

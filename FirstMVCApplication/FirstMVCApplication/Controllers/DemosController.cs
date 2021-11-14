@@ -10,6 +10,7 @@ namespace FirstMVCApplication.Controllers
 {
     public class DemosController : Controller
     {
+
         // GET: Demos
 
         //Action Methods for Views
@@ -105,10 +106,45 @@ namespace FirstMVCApplication.Controllers
 
             ViewBag.ptitle = "Thank Yor the Details: ";
             ViewBag.title = " Your details as below";
-            ViewBag.Name = "Firstname:   " + formCollection["FirstName"] + "  " + "LastName:  " + formCollection["LastName"]; ;
+            ViewBag.Name = "Firstname:   " + formCollection["FirstName"] + "  " + "LastName:  " + formCollection["LastName"];
             ViewBag.Gender = "Gender:  " + formCollection["Gender"];
             ViewBag.ProfType = "Type of profession --" + formCollection["ProfType"];
             return View("Thankyou");
+        }
+
+        public ActionResult PersonInformation()
+        {
+            string[] ownProperties = {"Bunglow","Car","Flat","Land","Two Wheeler"};
+            string[] ownCards = { "Aadhar Card", "Voter Card", "Passport", "Driving" };
+            ViewBag.OwnItems = ownProperties;
+            ViewBag.OwnCards = ownCards;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult PersonInformation(FormCollection formCollection)
+        {
+            string name = formCollection["fullName"];
+            string contactNo = formCollection["contactNo"];
+            string gender = formCollection["Gender"];
+            string email = formCollection["email"];
+            string member = formCollection["Members"];
+
+            string ownItem = formCollection["OwnItem"];
+            string[] properties = ownItem.Split(',');
+            string ownCard = formCollection["OwnCard"];
+            string[] cards = ownCard.Split(',');
+            
+
+            ViewBag.Message = "Thanks For Your Information.";
+            ViewBag.name = name;
+            ViewBag.email = email;
+            ViewBag.gender = gender;
+            ViewBag.contactNo = contactNo;
+            ViewBag.Properties = properties;
+            ViewBag.Cards = cards;
+            ViewBag.memberInfo = member;
+            return View("RegistrationSuccessful");
         }
     }
 }

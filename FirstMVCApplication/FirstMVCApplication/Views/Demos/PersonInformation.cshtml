@@ -1,0 +1,54 @@
+﻿<link href="~/Styles/PresonalDetailsStyles.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Person Information";
+}
+
+<h2>Person Information</h2>
+
+<section class="main-wrapper">
+    <div class="main-container">
+        @using (Html.BeginForm())
+        {
+            <label class="input-labels">Name:</label>
+            @Html.TextBox("fullName")
+            <br />
+            <label class="input-labels">Contact No:</label>
+            @Html.TextBox("contactNo")
+            <br />
+            <label class="input-labels">
+                Gender:
+                @Html.RadioButton("Gender", "Male", false) Male
+                @Html.RadioButton("Gender", "Female", false) Female
+            </label>
+            <br />
+            <label class="input-labels">Email:</label>
+            @Html.TextBox("email")
+            <br />
+            <p class="input-labels">
+                Do You Own ?
+                @foreach (string item in ViewBag.OwnItems)
+                {
+                    @Html.CheckBox("OwnItem", new { value = item });
+                    @Html.Label(item)
+                }
+            </p>
+            <p class="input-labels">
+                Do You Have ?
+                @foreach (string card in ViewBag.OwnCards)
+                {
+                    @Html.CheckBox("OwnCard", new { value = card });
+                    @Html.Label(card)
+                }
+            </p>
+            <p class="input-labels">
+                Will you be intrested in becoming a member?
+                <label class="input-labels">
+                    @Html.RadioButton("Members", "Yes", true) Yes
+                    @Html.RadioButton("Members", "No", false) No
+                    @Html.RadioButton("Members", "Not decided yet", false) Not Decided yet
+                </label>
+            </p>
+            <input class="main-button" type="submit" value="Submit" />
+        }
+    </div>
+</section>

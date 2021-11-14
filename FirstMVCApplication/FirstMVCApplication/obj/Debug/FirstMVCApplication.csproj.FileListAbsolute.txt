@@ -51,6 +51,8 @@ C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\roslyn\v
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\roslyn\VBCSCompiler.exe
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\Antlr3.Runtime.dll
+C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.dll
+C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.SqlServer.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.W
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.Web.WebPages.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.Web.WebPages.Razor.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\WebGrease.dll
+C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.xml
+C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.SqlServer.xml
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.Web.Helpers.xml
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.Web.Mvc.xml
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\System.Web.Optimization.xml
@@ -76,7 +80,3 @@ C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\obj\Debug\Fi
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\obj\Debug\FirstMVCApplication.csproj.CoreCompileInputs.cache
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\obj\Debug\FirstMVCApplication.dll
 C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\obj\Debug\FirstMVCApplication.pdb
-C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.dll
-C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.SqlServer.dll
-C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.xml
-C:\Users\91808\source\repos\FirstMVCApplication\FirstMVCApplication\bin\EntityFramework.SqlServer.xml

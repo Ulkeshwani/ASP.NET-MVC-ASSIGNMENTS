@@ -1,0 +1,53 @@
+﻿<link href="~/Styles/PresonalDetailsStyles.css" rel="stylesheet" />
+@{
+    ViewBag.PageTitle = "RegistrationSuccessful";
+}
+
+<h2>Registration Successful...</h2>
+
+<section>
+    <label class="display-labels">
+        @ViewBag.Message
+    </label>
+    <br />
+    <div style="padding:20px;">
+        <label class="display-labels">
+            Name :- @ViewBag.name
+        </label>
+        <br />
+        <label class="display-labels">
+            Email:- @ViewBag.email
+        </label>
+        <br />
+        <label class="display-labels">
+            Contact No:- @ViewBag.contactNo
+        </label>
+        <br />
+        <p class="input-labels">
+            You Own Following Things:-
+            @foreach (string prop in ViewBag.Properties)
+            {
+                if (prop != "false")
+                {
+                    <label class="display-labels">@prop</label>
+                }
+
+            }
+        </p>
+        <p class="input-labels">
+            You Have Following Cards:-
+            @foreach (string card in ViewBag.Cards)
+            {
+                if (card != "false")
+                {
+                    <label class="display-labels">@card</label>
+                }
+
+            }
+        </p>
+        @*<label class="input-labels">Becoming a member? @ViewBag.memberInfo</label>*@
+    </div>
+   
+</section>
+
+

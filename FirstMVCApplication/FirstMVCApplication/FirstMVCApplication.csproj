@@ -202,6 +202,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Styles\PresonalDetailsStyles.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -233,6 +234,8 @@
     <Content Include="Views\Samples\ListEmployee.cshtml" />
     <Content Include="Views\Demos\PerosnalDetails.cshtml" />
     <Content Include="Views\Demos\Thankyou.cshtml" />
+    <Content Include="Views\Demos\PersonInformation.cshtml" />
+    <Content Include="Views\Demos\RegistrationSuccessful.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
